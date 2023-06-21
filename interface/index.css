@@ -1,0 +1,9 @@
+html, body, * {
+    box-sizing: border-box;
+}
+
+#peerId {
+    width: 100%;
+    padding: 15px 10px;
+    font-weight: bold;
+}
