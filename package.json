@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "client:dev": "live-server interface"
+    "client:dev": "live-server applications/web",
+    "server:dev": "node --watch applications/server/index.mjs",
+    "prettify": "prettier --write ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
+    "prettier": "^2.8.8",
     "live-server": "^1.2.2"
   }
 }
